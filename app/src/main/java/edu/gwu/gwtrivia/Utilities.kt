@@ -41,6 +41,7 @@ object Utilities {
             val lines = csvString.split(",\r".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
 
             triviaCategory = lines[0]
+            Log.e("triviacategorytellme", triviaCategory)
 
             for (i in 1..lines.size - 1) {
                 val wrongAnswers = ArrayList<Answer>()
