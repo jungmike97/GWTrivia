@@ -45,7 +45,7 @@ class GameActivity : AppCompatActivity(), BingImageSearchManager.ImageSearchComp
 
      //  bingImageSearchManager.search("Harrison Ford")
         nextTurn()
-        toast("Found gamedata of size ${gameData.questions.count()}")
+      /*  toast("Found gamedata of size ${gameData.questions.count()}")   */
 
     }
      private fun nextTurn() {
