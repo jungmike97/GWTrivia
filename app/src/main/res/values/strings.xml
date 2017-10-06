@@ -2,4 +2,9 @@
     <string name="app_name">GWTrivia</string>
     <string name="play_button_text">Play</string>
     <string name="high_score_button_text">High Scores</string>
+    <string name="skip">Skip</string>
+    <string name="skip_pressed">skip pressed</string>
+    <string name="score">Score</string>
+    <string name="placeholder">Lorem Ipsum</string>
+    <string name="high_score">High Score</string>
 </resources>

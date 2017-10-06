@@ -47,6 +47,7 @@ class BingImageSearchManager(val context: Context, val imageView: ImageView) {
 
                                 }else {
                                     //success
+                                    Log.e("imageload","success")
                                     imageSearchCompletionListener?.imageLoaded()
                                 }
                             }
